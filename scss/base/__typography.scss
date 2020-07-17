@@ -1,0 +1,45 @@
+// Font Families
+// gotham [100 - 700]
+// helvetica neuel [100 - 400 - 700]
+
+// gotham [100]
+@font-face {
+    font-family: gotham;
+    font-weight: 100;
+    font-style: normal;
+    src: url(/assast/font/gotham-light-100.ttf);
+}
+// gotham [700]
+@font-face {
+    font-family: gotham;
+    font-weight: 700;
+    font-style: normal;
+    src: url(/assast/font/gotham-light-700.ttf);
+}
+// helvetica neuel [100]
+@font-face {
+    font-family: "helvetica neuel";
+    font-weight: 100;
+    font-style: normal;
+    src: url(/assast/font/helvetica-neuel-100.ttf);
+}
+// helvetica neuel [400]
+@font-face {
+    font-family: "helvetica neuel";
+    font-weight: 400;
+    font-style: normal;
+    src: url(/assast/font/helvetica-neuel-400.ttf);
+}
+// helvetica neuel [700]
+@font-face {
+    font-family: "helvetica neuel";
+    font-weight: 700;
+    font-style: normal;
+    src: url(/assast/font/helvetica-neuel-700.ttf);
+}
+
+// 
+
+p {
+    color: red;
+}
