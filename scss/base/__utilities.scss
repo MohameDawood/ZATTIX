@@ -5,9 +5,14 @@
 	display: flex;
 }
 
+.d-inline {
+	display: inline !important;
+}
+
 .d-inline-block {
 	display: inline;
 }
+
 .align-items-center {
 	align-items: center;
 }
@@ -34,6 +39,10 @@
 	z-index: 1030;
 }
 
+.border-bottom {
+	border-bottom: 1px solid #dee2e6;
+}
+
 .rounded-circle {
 	border-radius: 50%;
 }
@@ -47,23 +56,53 @@
 }
 
 .px-1 {
-	padding: 0 0.25rem;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
 }
 
 .px-2 {
-	padding: 0 0.5rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 }
 
 .px-3 {
-	padding: 0 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .px-4 {
-	padding: 0 1.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 
 .px-5 {
-	padding: 0 3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.py-1 {
+	padding-bottom: 0.25rem;
+	padding-top: 0.25rem;
+}
+
+.py-2 {
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+.py-3 {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.py-4 {
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+}
+
+.py-5 {
+	padding-bottom: 3rem;
+	padding-top: 3rem;
 }
 
 .ml-1 {
@@ -112,7 +151,16 @@
 
 /*************************************************************/
 
-/************************
+/***********************
+* Start Grid System
+*/
+// .container {
+// }
+/*
+* End Grid System
+***********************/
+
+/***********************
 * Start NavBar Component
 */
 .navbar {
@@ -150,3 +198,52 @@
 /*
 * End NavBar Component
 ***********************/
+
+/***********************
+* Bootstrap simulation
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+h1,
+.h1 {
+	font-size: 4rem;
+}
+
+h2,
+.h2 {
+	font-size: 3.2rem;
+}
+
+h3,
+.h3 {
+	font-size: 2.8rem;
+}
+
+h4,
+.h4 {
+	font-size: 2.4rem;
+}
+
+h5,
+.h5 {
+	font-size: 2rem;
+}
+
+h6,
+.h6 {
+	font-size: 1.6rem;
+}

@@ -7,13 +7,13 @@
 }
 
 html {
-	font-size: 62.5%; // 1rem = .625 * 16px (default user agent font size) = 10px
+	font-size: 50%; // For mobile : 1rem = .5 * 16px (default user agent font size) = 8px
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }
 
 body {
-	background-color: #fff;
+	background-color: #f4f4f4;
 }
 
 main {

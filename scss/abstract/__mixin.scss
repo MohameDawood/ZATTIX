@@ -16,6 +16,14 @@
 	}
 }
 
+@mixin breakpoint($breakpoint) {
+	& {
+		@media (min-width: $breakpoint + "px") {
+			@content;
+		}
+	}
+}
+
 // The Main Transition Effect
 @mixin transition($proparty) {
 	& {

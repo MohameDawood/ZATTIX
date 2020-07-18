@@ -48,51 +48,16 @@ body {
 	text-align: left;
 }
 
-/***********************
-* Bootstrap simulation
-*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-	font-weight: 500;
-	line-height: 1.2;
-}
-
-h1,
-.h1 {
-	font-size: 4rem;
-}
-
-h2,
-.h2 {
-	font-size: 3.2rem;
-}
-
-h3,
-.h3 {
-	font-size: 2.8rem;
-}
-
-h4,
-.h4 {
-	font-size: 2.4rem;
-}
-
-h5,
-.h5 {
-	font-size: 2rem;
-}
-
-h6,
-.h6 {
-	font-size: 1.6rem;
+.section-header {
+	&__icon {
+		color: $main-black;
+		font-size: 2rem;
+	}
+	&__heading {
+		color: $main-black;
+		font-size: 1.9rem;
+	}
+	&__paragraph {
+		font-size: 1.4rem;
+	}
 }
