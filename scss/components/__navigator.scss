@@ -1,3 +1,33 @@
 .navigator {
-    
+	background-color: $main-black;
+	height: 6rem;
+
+	&__logo-container {
+		display: flex;
+		color: $white;
+	}
+
+	&__heading {
+		color: $white;
+		font-size: 2rem;
+	}
+
+	&__logo {
+		width: 3.5rem;
+		height: 3.5rem;
+		background-color: black; // for test
+	}
+
+	&__link {
+		@include transition(color);
+		font-weight: 100;
+
+		&:hover {
+			color: $main-red;
+		}
+	}
+
+	&__icon {
+		font-size: 1.2rem;
+	}
 }

@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Add Style Sheet -->
+		<link rel="stylesheet" href="style.css" />
+		<title>ZATTIX</title>
+	</head>
 
-    <!-- Add Style Sheet -->
-    <link rel="stylesheet" href="style.css">
-    <title>ZATTIX</title>
-</head>
+	<body>
+		<nav class="navbar navigator fixed-top px-4">
+			<a
+				class="navbar-brand navigator__logo-container d-f align-items-center mr-5"
+			>
+				<!-- this logo from : https://www.freepik.com/free-vector/fashion-logo_8511933.htm#page=1&query=logo&position=39 -->
+				<img
+					src="assast/images/logo.jpg"
+					alt="logo"
+					class="rounded navigator__logo img-fluid d-inline-block align-top mr-3"
+				/>
+				ZATTIX
+			</a>
+			<div>
+				<ul
+					class="navbar-nav navigator__list d-f justify-content-between align-items-center"
+				>
+					<li class="nav-item navigator__item">
+						<a href="#" class="nav-link navigator__link">
+							<i class="fas fa-home navigator__icon mr-3"></i>
+							Home
+						</a>
+					</li>
+					<li class="nav-item navigator__item">
+						<a href="#" class="nav-link navigator__link">
+							<i class="fas fa-align-justify navigator__icon mr-3"></i>
+							Collections
+						</a>
+					</li>
+					<li class="nav-item navigator__item">
+						<a href="#" class="nav-link navigator__link btn btn--navigator">
+							<i class="fas fa-shopping-cart navigator__icon mr-3"></i>
+							Purchase
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-<body>
-
-    <nav class="navigator">
-        <div class="navigator__logo-box">
-            <img src="assast/images/logo.png" alt="logo" class="navigator__logo">
-        </div>
-        <ul class="navigator__list">
-            <li class="navigator__item"><a href="#" class="navigator__link">Home</a></li>
-            <li class="navigator__item"><a href="#" class="navigator__link">Collections</a></li>
-            <li class="navigator__item"><a href="#" class="navigator__link btn btn--navigator">Purchase</a></li>
-        </ul>
-    </nav>
-
-</body>
-
+		<main>
+			<div class="container">
+				<section class="electronics-section"></section>
+			</div>
+		</main>
+		<script
+			src="https://kit.fontawesome.com/63c1245c39.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>

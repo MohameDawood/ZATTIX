@@ -1,0 +1,24 @@
+// Responsive Switch
+@mixin respond($breakpoint) {
+	@if ($breakpoint == "tablet") {
+		& {
+			@media (min-width: 426px) {
+				@content;
+			}
+		}
+	}
+	@if ($breakpoint == "laptop") {
+		& {
+			@media (min-width: 769px) {
+				@content;
+			}
+		}
+	}
+}
+
+// The Main Transition Effect
+@mixin transition($proparty) {
+	& {
+		transition: $proparty 0.2s ease;
+	}
+}
