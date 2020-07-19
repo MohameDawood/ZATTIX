@@ -1,0 +1,42 @@
+.footer {
+	background-color: $white;
+
+	.row {
+		margin: 0;
+	}
+
+	&__links-container {
+		display: flex;
+	}
+
+	&__header {
+		display: block;
+		font-size: 1.4rem;
+		color: $main-red;
+		padding-bottom: 0.51rem;
+		margin-bottom: 0.5rem;
+		border-bottom: 1px solid $main-red;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		padding: 0 1rem;
+	}
+
+	&__item {
+		&--header {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	&__link {
+		font-size: 1.2rem;
+		padding: 1rem 0;
+	}
+
+	&__copyright {
+		font-size: 1.2rem;
+	}
+}

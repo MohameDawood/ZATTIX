@@ -1,0 +1,61 @@
+.element {
+	background-color: $white;
+	padding: 0 1.5rem 1rem;
+
+	&__container {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	&__item {
+		width: 21.017625rem;
+		padding-left: 0; // reset the bootstrap proparty
+		padding-right: 0; // reset the bootstrap proparty
+
+		&:nth-child(2n + 1) {
+			margin-right: 5%;
+		}
+	}
+
+	&__img-container {
+		background-color: $white;
+		height: 15rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__img {
+		width: 100%;
+		background-size: cover;
+	}
+
+	&__heading {
+		color: $main-black;
+		font-size: 1.4rem;
+		margin-bottom: 0;
+	}
+
+	&__label {
+		color: $main-red;
+		font-size: 1.4rem;
+		font-weight: 700;
+	}
+
+	&__from {
+		font-size: 1.2rem;
+
+		span {
+			color: lighten($main-gray, $amount: 11);
+		}
+	}
+
+	&__icon {
+		font-size: 1rem;
+		color: lighten($main-gray, $amount: 11);
+	}
+
+	&__price {
+		color: $main-red;
+	}
+}
