@@ -537,6 +537,15 @@ h6,
   font-size: 1.2rem;
 }
 
+.header {
+  height: 56rem;
+}
+
+.header__form-container {
+  height: 40%;
+  background-color: #d35266;
+}
+
 .element {
   background-color: #fff;
   padding: 0 1.5rem 1rem;
@@ -551,10 +560,21 @@ h6,
   width: 21.017625rem;
   padding-left: 0;
   padding-right: 0;
+  margin-right: 5px;
 }
 
 .element__item:nth-child(2n + 1) {
   margin-right: 5%;
+}
+
+@media (min-width: 425px) {
+  .element__item:nth-child(2n + 1) {
+    margin-right: 0;
+  }
+}
+
+.element__item:nth-child(n) {
+  margin-right: 5px;
 }
 
 .element__img-container {
@@ -607,6 +627,7 @@ h6,
 
 .footer {
   background-color: #fff;
+  padding: 1.5rem 0;
 }
 
 .footer .row {

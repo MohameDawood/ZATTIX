@@ -11,9 +11,18 @@
 		width: 21.017625rem;
 		padding-left: 0; // reset the bootstrap proparty
 		padding-right: 0; // reset the bootstrap proparty
+		margin-right: 5px;
 
 		&:nth-child(2n + 1) {
 			margin-right: 5%;
+
+			@include breakpoint(425) {
+				margin-right: 0;
+			}
+		}
+
+		&:nth-child(n) {
+			margin-right: 5px;
 		}
 	}
 

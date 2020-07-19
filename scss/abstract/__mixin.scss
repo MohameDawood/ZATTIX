@@ -7,6 +7,7 @@
 			}
 		}
 	}
+
 	@if ($breakpoint == "laptop") {
 		& {
 			@media (min-width: 769px) {
