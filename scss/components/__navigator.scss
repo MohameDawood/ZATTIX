@@ -1,10 +1,22 @@
 .navigator {
 	background-color: $main-black;
 	height: 6rem;
+	padding: 0 8%;
+
+	&__links-container {
+		width: 75rem;
+		display: flex;
+		margin-right: auto;
+	}
 
 	&__logo-container {
 		display: flex;
 		color: $white;
+		margin-right: 4rem;
+	}
+
+	&__container--right {
+		width: 100%;
 	}
 
 	&__heading {
@@ -25,6 +37,12 @@
 
 		&:hover {
 			color: $main-red;
+		}
+
+		&--btn {
+			background-color: $main-red;
+			color: $white;
+			font-size: inherit;
 		}
 	}
 

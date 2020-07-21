@@ -31,3 +31,11 @@
 		transition: $proparty 0.2s ease;
 	}
 }
+
+@mixin clear-fix {
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

@@ -1,0 +1,101 @@
+.search {
+	padding: 5rem 0; //test
+	display: flex;
+
+	.form-box {
+		width: 30%;
+		padding: 10rem;
+	}
+
+	.search-result {
+		width: 70%;
+	}
+
+	.form__heading {
+		font-size: 1.6rem;
+		color: $main-black;
+		font-weight: 700;
+		border-bottom: 1px solid #dee2e6;
+		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.form-group {
+		margin-bottom: 2rem;
+	}
+
+	.form__label-box {
+		display: flex;
+		flex-direction: column;
+
+		label {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.form__label--top {
+		font-size: 1.6rem;
+
+		input {
+			margin-right: 0.5rem;
+		}
+	}
+
+	&__item {
+		padding: 2rem;
+		width: 100%;
+		display: flex;
+		margin-bottom: 3rem;
+	}
+
+	&__img-box {
+		width: 60%;
+		height: 23rem;
+		margin-right: 3rem;
+
+		background-image: url(assast/images/macbook.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center center;
+	}
+
+	&__img {
+		max-width: 100%;
+	}
+
+	&__header {
+		margin-bottom: 2rem;
+		span {
+			color: $main-red;
+		}
+	}
+
+	&__info {
+		position: relative;
+	}
+
+	&__heading {
+		font-size: 1.6rem;
+		color: $main-black;
+	}
+
+	&__location {
+		display: block;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+
+		span {
+			color: $main-black;
+			font-weight: 700;
+		}
+	}
+
+	&__btn {
+		position: absolute;
+		background-color: $main-red;
+		color: $white;
+		margin-right: auto;
+		bottom: 5px;
+		right: 8px;
+	}
+}
