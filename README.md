@@ -6,13 +6,13 @@
 
 ## Desktop Screenshot
 
-![screenshot Adopt-page]()
-![screenshot Search-page]()
+![screenshot home-page](assast/image/s1.png)
+![screenshot Search-page](assast/image/s3.png)
 
 ## Small screen Screenshot
 
-![screenshot Adopt-page]()
-![screenshot Search-page]()
+![screenshot home-page](assast/image/s2.png)
+![screenshot Search-page](assast/image/s4.png)
 
 ## Built With
 
@@ -34,9 +34,9 @@
 
 ## Live Demo
 
-[Live Demo Link Adopt page]()
+[Live Demo Link home page](https://rawcdn.githack.com/MohameDawood/ZATTIX/9c2c7b7ee25309785ac4a6476ed4577142005759/index.html)
 
-[Live Demo Link Search page]()
+[Live Demo Link Search page](https://rawcdn.githack.com/MohameDawood/ZATTIX/9c2c7b7ee25309785ac4a6476ed4577142005759/Pages/search.html)
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/MohameDawood/ZATTIX/issues).
 
 ## Show your support
 

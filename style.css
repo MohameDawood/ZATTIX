@@ -618,6 +618,12 @@ h6,
   display: none;
 }
 
+@media (min-width: 425px) {
+  .navigator__item--1 {
+    display: inline-block;
+  }
+}
+
 .navigator__logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
