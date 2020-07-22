@@ -2,11 +2,20 @@
 	background-color: $main-black;
 	height: 6rem;
 	padding: 0 8%;
+	@media (max-width: 425px) {
+		padding: 0 5px;
+	}
 
 	&__links-container {
 		width: 75rem;
 		display: flex;
 		margin-right: auto;
+	}
+
+	&__item {
+		&--1 {
+			display: none;
+		}
 	}
 
 	&__logo-container {

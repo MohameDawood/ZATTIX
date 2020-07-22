@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 		<!-- Add Style Sheet -->
 		<link rel="stylesheet" href="../style.css" />
 		<title>ZATTIX</title>
@@ -46,7 +45,7 @@
 								Purchase
 							</a>
 						</li>
-						<li class="nav-item navigator__item ml-5">
+						<li class="nav-item navigator__item navigator__item--1 ml-5">
 							<a
 								href="#"
 								class="nav-link navigator__link navigator__link--btn btn px-4"
@@ -59,11 +58,64 @@
 			</div>
 		</nav>
 
+		<header class="header">
+			<div
+				class="header__form-container d-f flex-column justify-content-center align-items-center px-5 overflow-hidden"
+			>
+				<div class="container-md m-auto">
+					<div
+						class="search__header-container header__header mb-5 d-f flex-column align-items-center zindex-fixed"
+					>
+						<h1 class="search__header-heading">ZATTIX</h1>
+						<p>Buyer And Seller Coudn't Be Easier Than this!</p>
+					</div>
+					<form class="d-f header__form" action="#">
+						<select
+							class="custome-select header__select mr-1 rounded-0 zindex-fixed"
+							name="#"
+							id="#"
+						>
+							<option selected value="electronics">
+								Real State
+							</option>
+							<option value="electronics">
+								Electronics
+							</option>
+							<option value="electronics">
+								Electronics
+							</option>
+							<option value="electronics">
+								Electronics
+							</option>
+							<option value="electronics">
+								Electronics
+							</option>
+						</select>
+						<input
+							class="form-control header__input mr-1 rounded-0 zindex-fixed"
+							type="text"
+							value="What do you serch for ?"
+						/>
+						<input
+							class="form-control header__input mr-1 rounded-0 zindex-fixed"
+							type="text"
+							value="State"
+						/>
+						<input
+							type="submit"
+							class="btn header__btn header__submit px-5 rounded-0 ml-3 zindex-fixed"
+							value="Search"
+						/>
+					</form>
+				</div>
+			</div>
+		</header>
+
 		<main>
 			<section class="search search-section">
 				<aside class="form-box">
 					<form class="form `" action="#">
-						<div class="form-group">
+						<div class="form-group--top">
 							<label class="form__label--top">
 								<input type="checkbox" name="vehicle1" value="Bike" />
 								Type
@@ -366,7 +418,7 @@
 		</main>
 
 		<footer class="footer text-center">
-			<div class="row">
+			<div class="row row--1">
 				<div class="col footer__logo-container">
 					<a
 						class="navbar-brand navigator__logo-container d-f align-items-center footer__logo"
@@ -381,8 +433,6 @@
 					<p class="footer__info">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
 						dolorem distinctio quaerat adipisci asperiores nihil omnis,
-						assumenda accusamus saepe nostrum vitae, expedita reprehenderit non,
-						repudiandae dolor repellat fugiat nulla fuga.
 					</p>
 				</div>
 				<div class="row footer__links-container mb-4">

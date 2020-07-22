@@ -1,5 +1,7 @@
 .header {
-	height: 56rem;
+	@media (max-width: 425px) {
+		display: none;
+	}
 
 	&__form-container {
 		position: relative;
@@ -14,11 +16,13 @@
 		h1 {
 			font-size: 5rem;
 			font-weight: 400;
+			z-index: 9000 !important;
 		}
 
 		p {
 			font-size: 1.6rem;
 			font-weight: 100;
+			z-index: 9000 !important;
 		}
 
 		&::after {
@@ -42,7 +46,6 @@
 	&__select {
 		width: 10%;
 		height: 4.5rem;
-
 		// padding-top: 2.5rem;
 		// padding-bottom: 2.5rem;
 	}

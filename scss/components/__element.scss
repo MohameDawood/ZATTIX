@@ -5,6 +5,10 @@
 	&__container {
 		margin-left: 0;
 		margin-right: 0;
+
+		.row {
+			justify-content: center;
+		}
 	}
 
 	&__item {
