@@ -30,7 +30,7 @@
 			display: inline-block;
 			height: 26rem;
 			width: 29rem;
-			background-image: url(assast/images/logo.jpg);
+			background-image: url(asset/images/logo.jpg);
 			filter: saturate(0.5);
 			border-radius: 10px;
 			position: absolute;
@@ -46,16 +46,12 @@
 	&__select {
 		width: 10%;
 		height: 4.5rem;
-		// padding-top: 2.5rem;
-		// padding-bottom: 2.5rem;
 	}
 
 	&__input {
 		width: 40%;
 		height: 4.5rem;
 		color: $main-gray;
-		// padding-top: 2.5rem;
-		// padding-bottom: 2.5rem;
 	}
 
 	&__submit {

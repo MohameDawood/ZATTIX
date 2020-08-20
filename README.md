@@ -6,13 +6,13 @@
 
 ## Desktop Screenshot
 
-![screenshot home-page](assast/images/s1.png)
-![screenshot Search-page](assast/images/s3.png)
+![screenshot home-page](asset/images/s1.png)
+![screenshot Search-page](asset/images/s3.png)
 
 ## Small screen Screenshot
 
-![screenshot home-page](assast/images/s2.png)
-![screenshot Search-page](assast/images/s4.png)
+![screenshot home-page](asset/images/s2.png)
+![screenshot Search-page](asset/images/s4.png)
 
 ## Built With
 
