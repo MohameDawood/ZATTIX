@@ -34,7 +34,7 @@
 
 ## Live Demo
 
-[Live Demo Link home page](https://rawcdn.githack.com/MohameDawood/ZATTIX/9c2c7b7ee25309785ac4a6476ed4577142005759/index.html)
+[Live Demo Link home page](https://rawcdn.githack.com/MohameDawood/ZATTIX/b2740b841bb5067ab56721c85744b91fc9c91c42/index.html)
 
 [Live Demo Link Search page](https://rawcdn.githack.com/MohameDawood/ZATTIX/9c2c7b7ee25309785ac4a6476ed4577142005759/Pages/search.html)
 
