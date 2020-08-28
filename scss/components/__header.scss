@@ -8,6 +8,7 @@
 		height: 31rem;
 		background-color: $main-red;
 	}
+
 	&__header {
 		position: relative;
 
@@ -58,6 +59,7 @@
 		color: $main-gray;
 		font-size: 1.2rem;
 		background-color: $main-black;
+		line-height: 25px;
 	}
 
 	&__slider {
