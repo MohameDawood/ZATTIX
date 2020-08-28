@@ -1,65 +1,67 @@
 .navigator {
-	background-color: $main-black;
-	height: 6rem;
-	padding: 0 8%;
-	@media (max-width: 425px) {
-		padding: 0 5px;
-	}
+  background-color: $main-black;
+  height: 6rem;
+  padding: 0 8%;
 
-	&__links-container {
-		width: 75rem;
-		display: flex;
-		margin-right: auto;
-	}
+  @media (max-width: 425px) {
+    padding: 0 5px;
+  }
 
-	&__item {
-		&--1 {
-			display: none;
+  &__links-container {
+    width: 75rem;
+    display: flex;
+    margin-right: auto;
+  }
 
-			@media (min-width: 425px) {
-				display: inline-block
-			}
-		}
-	}
+  &__item {
+    &--1 {
+      display: none;
 
-	&__logo-container {
-		display: flex;
-		color: $white;
-		margin-right: 4rem;
-	}
+      @media (min-width: 425px) {
+        display: inline-block;
+      }
+    }
+  }
 
-	&__container--right {
-		width: 100%;
-	}
+  &__logo-container {
+    display: flex;
+    color: $white;
+    margin-right: 4rem;
+  }
 
-	&__heading {
-		color: $white;
-		font-size: 2rem;
-	}
+  &__container--right {
+    width: 100%;
+  }
 
-	&__logo {
-		width: 3.5rem;
-		height: 3.5rem;
-		background-color: black; // for test
-	}
+  &__heading {
+    color: $white;
+    font-size: 2rem;
+  }
 
-	&__link {
-		@include transition(color);
-		font-weight: 100;
-		padding: 0.8rem 1rem;
+  &__logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: black; // for test
+  }
 
-		&:hover {
-			color: $main-red;
-		}
+  &__link {
+    @include transition(color);
 
-		&--btn {
-			background-color: $main-red;
-			color: $white;
-			font-size: inherit;
-		}
-	}
+    font-weight: 100;
+    padding: 0.8rem 1rem;
 
-	&__icon {
-		font-size: 1.2rem;
-	}
+    &:hover {
+      color: $main-red;
+    }
+
+    &--btn {
+      background-color: $main-red;
+      color: $white;
+      font-size: inherit;
+    }
+  }
+
+  &__icon {
+    font-size: 1.2rem;
+  }
 }

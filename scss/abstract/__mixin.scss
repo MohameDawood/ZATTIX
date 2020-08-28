@@ -1,41 +1,41 @@
 // Responsive Switch
 @mixin respond($breakpoint) {
-	@if ($breakpoint == "tablet") {
-		& {
-			@media (min-width: 426px) {
-				@content;
-			}
-		}
-	}
+  @if ($breakpoint == "tablet") {
+    & {
+      @media (min-width: 426px) {
+        @content;
+      }
+    }
+  }
 
-	@if ($breakpoint == "laptop") {
-		& {
-			@media (min-width: 769px) {
-				@content;
-			}
-		}
-	}
+  @if ($breakpoint == "laptop") {
+    & {
+      @media (min-width: 769px) {
+        @content;
+      }
+    }
+  }
 }
 
 @mixin breakpoint($breakpoint) {
-	& {
-		@media (min-width: $breakpoint + "px") {
-			@content;
-		}
-	}
+  & {
+    @media (min-width: $breakpoint + "px") {
+      @content;
+    }
+  }
 }
 
 // The Main Transition Effect
 @mixin transition($proparty) {
-	& {
-		transition: $proparty 0.2s ease;
-	}
+  & {
+    transition: $proparty 0.2s ease;
+  }
 }
 
 @mixin clear-fix {
-	&::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }

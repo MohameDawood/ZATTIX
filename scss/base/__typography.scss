@@ -4,60 +4,65 @@
 
 // gotham [100]
 @font-face {
-	font-family: gotham;
-	font-weight: 100;
-	font-style: normal;
-	src: url(/asset/font/gotham-light-100.ttf);
+  font-family: gotham;
+  font-weight: 100;
+  font-style: normal;
+  src: url(/asset/font/gotham-light-100.ttf);
 }
+
 // gotham [700]
 @font-face {
-	font-family: gotham;
-	font-weight: 700;
-	font-style: normal;
-	src: url(/asset/font/gotham-light-700.ttf);
+  font-family: gotham;
+  font-weight: 700;
+  font-style: normal;
+  src: url(/asset/font/gotham-light-700.ttf);
 }
+
 // helvetica neuel [100]
 @font-face {
-	font-family: "helvetica neuel";
-	font-weight: 100;
-	font-style: normal;
-	src: url(/asset/font/helvetica-neuel-100.ttf);
+  font-family: "helvetica neuel";
+  font-weight: 100;
+  font-style: normal;
+  src: url(/asset/font/helvetica-neuel-100.ttf);
 }
+
 // helvetica neuel [400]
 @font-face {
-	font-family: "helvetica neuel";
-	font-weight: 400;
-	font-style: normal;
-	src: url(/asset/font/helvetica-neuel-400.ttf);
+  font-family: "helvetica neuel";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/asset/font/helvetica-neuel-400.ttf);
 }
+
 // helvetica neuel [700]
 @font-face {
-	font-family: "helvetica neuel";
-	font-weight: 700;
-	font-style: normal;
-	src: url(/asset/font/helvetica-neuel-700.ttf);
+  font-family: "helvetica neuel";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/asset/font/helvetica-neuel-700.ttf);
 }
 
 // Basics typographic setup
 body {
-	font-size: 1.6rem;
-	color: $main-gray;
-	font-weight: 400;
-	font-family: "helvetica neuel";
-	line-height: 1.5;
-	text-align: left;
+  font-size: 1.6rem;
+  color: $main-gray;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
 }
 
 .section-header {
-	&__icon {
-		color: $main-black;
-		font-size: 2rem;
-	}
-	&__heading {
-		color: $main-black;
-		font-size: 1.9rem;
-	}
-	&__paragraph {
-		font-size: 1.4rem;
-	}
+  &__icon {
+    color: $main-black;
+    font-size: 2rem;
+  }
+
+  &__heading {
+    color: $main-black;
+    font-size: 1.9rem;
+  }
+
+  &__paragraph {
+    font-size: 1.4rem;
+  }
 }
