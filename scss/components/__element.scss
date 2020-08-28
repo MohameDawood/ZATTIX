@@ -1,74 +1,78 @@
 .element {
-  background-color: $white;
-  padding: 0 1.5rem 1rem;
+	background-color: $white;
+	padding: 0 1.5rem 1rem;
 
-  &__container {
-    margin-left: 0;
-    margin-right: 0;
+	&__container {
+		margin-left: 0;
+		margin-right: 0;
 
-    .row {
-      justify-content: center;
-    }
-  }
+		.row {
+			justify-content: center;
+		}
+	}
 
-  &__item {
-    max-width: 20rem;
-    padding-left: 0; // reset the bootstrap proparty
-    padding-right: 0; // reset the bootstrap proparty
-    margin-right: 5px;
+	&__item {
+		max-width: 23%;
+		padding-left: 0; // reset the bootstrap proparty
+		padding-right: 0; // reset the bootstrap proparty
+		margin-right: 5px;
 
-    &:nth-child(2n + 1) {
-      margin-right: 5%;
+		&:nth-child(2n + 1) {
+			margin-right: 5%;
 
-      @include breakpoint(425) {
-        margin-right: 0;
-      }
-    }
+			@include breakpoint(425) {
+				margin-right: 0;
+			}
+		}
 
-    &:nth-child(n) {
-      margin-right: 5px;
-    }
-  }
+		&:nth-child(n) {
+			margin-right: 5px;
+		}
 
-  &__img-container {
-    background-color: $white;
-    height: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+		@media (max-width: 425px) {
+			max-width: 20rem;
+		}
+	}
 
-  &__img {
-    width: 100%;
-    background-size: cover;
-  }
+	&__img-container {
+		background-color: $white;
+		height: 15rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-  &__heading {
-    color: $main-black;
-    font-size: 1.4rem;
-    margin-bottom: 0;
-  }
+	&__img {
+		width: 100%;
+		background-size: cover;
+	}
 
-  &__label {
-    color: $main-red;
-    font-size: 1.4rem;
-    font-weight: 700;
-  }
+	&__heading {
+		color: $main-black;
+		font-size: 1.4rem;
+		margin-bottom: 0;
+	}
 
-  &__from {
-    font-size: 1.2rem;
+	&__label {
+		color: $main-red;
+		font-size: 1.4rem;
+		font-weight: 700;
+	}
 
-    span {
-      color: lighten($main-gray, $amount: 11);
-    }
-  }
+	&__from {
+		font-size: 1.2rem;
 
-  &__icon {
-    font-size: 1rem;
-    color: lighten($main-gray, $amount: 11);
-  }
+		span {
+			color: lighten($main-gray, $amount: 11);
+		}
+	}
 
-  &__price {
-    color: $main-red;
-  }
+	&__icon {
+		font-size: 1rem;
+		color: lighten($main-gray, $amount: 11);
+	}
+
+	&__price {
+		color: $main-red;
+	}
 }
