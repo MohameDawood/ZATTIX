@@ -1,0 +1,17 @@
+/**************************************
+* I'm not a fan to use libraries
+* So to up-to-date with bootstrap
+* I create a semulation to its classes
+* in __utilities.scss
+***************************************/
+
+@import "scss/abstract/_mixin";
+@import "scss/abstract/_variable";
+@import "scss/base/_base";
+@import "scss/base/_typography";
+@import "scss/base/_utilities"; //The Semulation
+@import "scss/components/_navigator";
+@import "scss/components/_header";
+@import "scss/components/_element";
+@import "scss/components/_footer";
+@import "scss/pages/_search";

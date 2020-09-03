@@ -1,0 +1,67 @@
+.navigator {
+  background-color: $main-black;
+  height: 6rem;
+  padding: 0 8%;
+
+  @media (max-width: 425px) {
+    padding: 0 5px;
+  }
+
+  &__links-container {
+    width: 75rem;
+    display: flex;
+    margin-right: auto;
+  }
+
+  &__item {
+    &--1 {
+      display: none;
+
+      @media (min-width: 425px) {
+        display: inline-block;
+      }
+    }
+  }
+
+  &__logo-container {
+    display: flex;
+    color: $white;
+    margin-right: 4rem;
+  }
+
+  &__container--right {
+    width: 100%;
+  }
+
+  &__heading {
+    color: $white;
+    font-size: 2rem;
+  }
+
+  &__logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: black; // for test
+  }
+
+  &__link {
+    @include transition(color);
+
+    font-weight: 100;
+    padding: 0.8rem 1rem;
+
+    &:hover {
+      color: $main-red;
+    }
+
+    &--btn {
+      background-color: $main-red;
+      color: $white;
+      font-size: inherit;
+    }
+  }
+
+  &__icon {
+    font-size: 1.2rem;
+  }
+}
