@@ -1,461 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- Add Style Sheet -->
-		<link rel="stylesheet" href="../style.css" />
-		<title>ZATTIX</title>
-	</head>
 
-	<body>
-		<nav class="navbar navigator fixed-top">
-			<div class="navigator__links-container">
-				<a
-					class="navbar-brand navigator__logo-container d-f align-items-center"
-				>
-					<!-- this logo from : https://www.freepik.com/free-vector/fashion-logo_8511933.htm#page=1&query=logo&position=39 -->
-					<!-- TODO: make the image responsive by picture tag -->
-					<img
-						src="../asset/images/logo.jpg"
-						alt="logo"
-						class="rounded navigator__logo img-fluid d-inline-block align-top mr-3"
-					/>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Add Style Sheet -->
+	<link rel="stylesheet" href="style.css" />
+	<title>ZATTIX</title>
+</head>
+
+<body>
+	<nav class="navbar navigator fixed-top">
+		<div class="navigator__links-container">
+			<a class="navbar-brand navigator__logo-container d-f align-items-center">
+				<!-- this logo from : https://www.freepik.com/free-vector/fashion-logo_8511933.htm#page=1&query=logo&position=39 -->
+				<!-- TODO: make the image responsive by picture tag -->
+				<img src="../asset/images/logo.jpg" alt="logo"
+					class="rounded navigator__logo img-fluid d-inline-block align-top mr-3" />
+				ZATTIX
+			</a>
+			<div class="navigator__container--right">
+				<ul class="navbar-nav navigator__list d-f justify-content-between align-items-center">
+					<li class="nav-item navigator__item">
+						<a href="index.html" class="nav-link navigator__link">
+							<i class="fas fa-home navigator__icon mr-3"></i>
+							Home
+						</a>
+					</li>
+					<li class="nav-item navigator__item">
+						<a href="#" class="nav-link navigator__link">
+							<i class="fas fa-align-justify navigator__icon mr-3"></i>
+							Collections
+						</a>
+					</li>
+					<li class="nav-item navigator__item">
+						<a href="#" class="nav-link navigator__link btn--navigator">
+							<i class="fas fa-shopping-cart navigator__icon mr-3"></i>
+							Purchase
+						</a>
+					</li>
+					<li class="nav-item navigator__item navigator__item--1 ml-5">
+						<a href="#" class="nav-link navigator__link navigator__link--btn btn px-4">
+							Post an add
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="header">
+		<div
+			class="header__form-container d-f flex-column justify-content-center align-items-center px-5 overflow-hidden">
+			<div class="container-md m-auto">
+				<div
+					class="search__header-container header__header mb-5 d-f flex-column align-items-center zindex-fixed">
+					<h1 class="search__header-heading">ZATTIX</h1>
+					<p>Buyer And Seller Coudn't Be Easier Than this!</p>
+				</div>
+				<form class="d-f header__form" action="#">
+					<select class="custome-select header__select mr-1 rounded-0 zindex-fixed" name="#" id="#">
+						<option selected value="electronics">Real State</option>
+						<option value="electronics">Electronics</option>
+						<option value="electronics">Electronics</option>
+						<option value="electronics">Electronics</option>
+						<option value="electronics">Electronics</option>
+					</select>
+					<input class="form-control header__input mr-1 rounded-0 zindex-fixed" type="text"
+						value="What do you serch for ?" />
+					<input class="form-control header__input mr-1 rounded-0 zindex-fixed" type="text" value="State" />
+					<input type="submit" class="btn header__btn header__submit px-5 rounded-0 ml-3 zindex-fixed"
+						value="Search" />
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="search search-section">
+			<aside class="form-box">
+				<form class="form `" action="#">
+					<div class="form-group--top">
+						<label class="form__label--top">
+							<input type="checkbox" name="vehicle1" value="Bike" />
+							Type
+						</label>
+						<label class="form__label--top">
+							<input type="checkbox" name="vehicle1" value="Bike" />
+							Type
+						</label>
+					</div>
+
+					<div class="form-group">
+						<h3 class="form__heading">Type</h3>
+						<div class="form__label-box">
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<h3 class="form__heading">Type</h3>
+						<div class="form__label-box">
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<h3 class="form__heading">Type</h3>
+						<div class="form__label-box">
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+							<label>
+								<input type="checkbox" name="vehicle1" value="Bike" />
+								Type
+							</label>
+						</div>
+					</div>
+				</form>
+			</aside>
+			<div class="search-result">
+				<ul class="search__list">
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+					<li class="search__item border">
+						<div class="search__img-box"></div>
+						<div class="search__info">
+							<header class="search__header">
+								<h2 class="search__heading">Apple MacBook Pro Late</h2>
+								<span>200 M, Ownership</span>
+							</header>
+							<p class="search__para">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium nisi aspernatur dolorem impedit reprehenderit
+								voluptate provident voluptas quibusdam, esse facilis, atque
+							</p>
+							<span class="search__location">
+								<span>Location:</span> 21 Start Street, San Francisco US
+							</span>
+							<span class="search__time">23 Nox, 2014</span>
+							<a href="" class="search__btn btn">Give a Call</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer text-center">
+		<div class="row row--1">
+			<div class="col footer__logo-container">
+				<a class="navbar-brand navigator__logo-container d-f align-items-center footer__logo">
+					<img src="../asset/images/logo.jpg" alt="logo"
+						class="rounded navigator__logo img-fluid d-inline-block align-top mr-3" />
 					ZATTIX
 				</a>
-				<div class="navigator__container--right">
-					<ul
-						class="navbar-nav navigator__list d-f justify-content-between align-items-center"
-					>
-						<li class="nav-item navigator__item">
-							<a href="https://raw.githack.com/MohameDawood/ZATTIX/development-branch/index.html" class="nav-link navigator__link">
-								<i class="fas fa-home navigator__icon mr-3"></i>
-								Home
-							</a>
-						</li>
-						<li class="nav-item navigator__item">
-							<a href="#" class="nav-link navigator__link">
-								<i class="fas fa-align-justify navigator__icon mr-3"></i>
-								Collections
-							</a>
-						</li>
-						<li class="nav-item navigator__item">
-							<a href="#" class="nav-link navigator__link btn--navigator">
-								<i class="fas fa-shopping-cart navigator__icon mr-3"></i>
-								Purchase
-							</a>
-						</li>
-						<li class="nav-item navigator__item navigator__item--1 ml-5">
-							<a
-								href="#"
-								class="nav-link navigator__link navigator__link--btn btn px-4"
-							>
-								Post an add
-							</a>
-						</li>
-					</ul>
-				</div>
+				<p class="footer__info">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+					dolorem distinctio quaerat adipisci asperiores nihil omnis,
+				</p>
 			</div>
-		</nav>
+			<div class="row footer__links-container mb-4">
+				<ul class="col footer__list">
+					<li class="footer__item footer__item--header">
+						<a href="#" class="footer__header border-bottom">Categories</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Real Estate</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Automotives</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Electronics</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Clothing</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Fashion</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Kids</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Food & Drink</a>
+					</li>
+				</ul>
 
-		<header class="header">
-			<div
-				class="header__form-container d-f flex-column justify-content-center align-items-center px-5 overflow-hidden"
-			>
-				<div class="container-md m-auto">
-					<div
-						class="search__header-container header__header mb-5 d-f flex-column align-items-center zindex-fixed"
-					>
-						<h1 class="search__header-heading">ZATTIX</h1>
-						<p>Buyer And Seller Coudn't Be Easier Than this!</p>
-					</div>
-					<form class="d-f header__form" action="#">
-						<select
-							class="custome-select header__select mr-1 rounded-0 zindex-fixed"
-							name="#"
-							id="#"
-						>
-							<option selected value="electronics">Real State</option>
-							<option value="electronics">Electronics</option>
-							<option value="electronics">Electronics</option>
-							<option value="electronics">Electronics</option>
-							<option value="electronics">Electronics</option>
-						</select>
-						<input
-							class="form-control header__input mr-1 rounded-0 zindex-fixed"
-							type="text"
-							value="What do you serch for ?"
-						/>
-						<input
-							class="form-control header__input mr-1 rounded-0 zindex-fixed"
-							type="text"
-							value="State"
-						/>
-						<input
-							type="submit"
-							class="btn header__btn header__submit px-5 rounded-0 ml-3 zindex-fixed"
-							value="Search"
-						/>
-					</form>
-				</div>
+				<ul class="col footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__header">Categories</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Real Estate</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Automotives</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Electronics</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Clothing</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Fashion</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Kids</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Food & Drink</a>
+					</li>
+				</ul>
+
+				<ul class="col footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__header">Categories</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Real Estate</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Automotives</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Electronics</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Clothing</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Fashion</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Kids</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Food & Drink</a>
+					</li>
+				</ul>
 			</div>
-		</header>
+		</div>
+		<div class="footer__copyright py-4 px-5 border-top">
+			Copyright © All right recieved.2020 Coded by MohameDawood, Designed By
+			Mohamed Awad
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/63c1245c39.js" crossorigin="anonymous"></script>
+</body>
 
-		<main>
-			<div class="search search-section">
-				<aside class="form-box">
-					<form class="form `" action="#">
-						<div class="form-group--top">
-							<label class="form__label--top">
-								<input type="checkbox" name="vehicle1" value="Bike" />
-								Type
-							</label>
-							<label class="form__label--top">
-								<input type="checkbox" name="vehicle1" value="Bike" />
-								Type
-							</label>
-						</div>
-
-						<div class="form-group">
-							<h3 class="form__heading">Type</h3>
-							<div class="form__label-box">
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-							</div>
-						</div>
-						<div class="form-group">
-							<h3 class="form__heading">Type</h3>
-							<div class="form__label-box">
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-							</div>
-						</div>
-						<div class="form-group">
-							<h3 class="form__heading">Type</h3>
-							<div class="form__label-box">
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-								<label>
-									<input type="checkbox" name="vehicle1" value="Bike" />
-									Type
-								</label>
-							</div>
-						</div>
-					</form>
-				</aside>
-				<div class="search-result">
-					<ul class="search__list">
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-						<li class="search__item border">
-							<div class="search__img-box"></div>
-							<div class="search__info">
-								<header class="search__header">
-									<h2 class="search__heading">Apple MacBook Pro Late</h2>
-									<span>200 M, Ownership</span>
-								</header>
-								<p class="search__para">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Accusantium nisi aspernatur dolorem impedit reprehenderit
-									voluptate provident voluptas quibusdam, esse facilis, atque
-								</p>
-								<span class="search__location">
-									<span>Location:</span> 21 Start Street, San Francisco US
-								</span>
-								<span class="search__time">23 Nox, 2014</span>
-								<a href="" class="search__btn btn">Give a Call</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</main>
-
-		<footer class="footer text-center">
-			<div class="row row--1">
-				<div class="col footer__logo-container">
-					<a
-						class="navbar-brand navigator__logo-container d-f align-items-center footer__logo"
-					>
-						<img
-							src="../asset/images/logo.jpg"
-							alt="logo"
-							class="rounded navigator__logo img-fluid d-inline-block align-top mr-3"
-						/>
-						ZATTIX
-					</a>
-					<p class="footer__info">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-						dolorem distinctio quaerat adipisci asperiores nihil omnis,
-					</p>
-				</div>
-				<div class="row footer__links-container mb-4">
-					<ul class="col footer__list">
-						<li class="footer__item footer__item--header">
-							<a href="#" class="footer__header border-bottom">Categories</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Real Estate</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Automotives</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Electronics</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Clothing</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Fashion</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Kids</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Food & Drink</a>
-						</li>
-					</ul>
-
-					<ul class="col footer__list">
-						<li class="footer__item">
-							<a href="#" class="footer__header">Categories</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Real Estate</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Automotives</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Electronics</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Clothing</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Fashion</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Kids</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Food & Drink</a>
-						</li>
-					</ul>
-
-					<ul class="col footer__list">
-						<li class="footer__item">
-							<a href="#" class="footer__header">Categories</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Real Estate</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Automotives</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Electronics</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Clothing</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Fashion</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Kids</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Food & Drink</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="footer__copyright py-4 px-5 border-top">
-				Copyright © All right recieved.2020 Coded by MohameDawood, Designed By
-				Mohamed Awad
-			</div>
-		</footer>
-		<script
-			src="https://kit.fontawesome.com/63c1245c39.js"
-			crossorigin="anonymous"
-		></script>
-	</body>
 </html>

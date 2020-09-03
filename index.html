@@ -1,529 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Add Style Sheet -->
-		<link rel="stylesheet" href="style.css" />
-		<title>ZATTIX</title>
-	</head>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<body>
-		<nav class="navbar navigator fixed-top">
-			<div class="navigator__links-container">
-				<a
-					class="navbar-brand navigator__logo-container d-f align-items-center"
-				>
-					<!-- this logo from : https://www.freepik.com/free-vector/fashion-logo_8511933.htm#page=1&query=logo&position=39 -->
-					<!-- TODO: make the image responsive by picture tag -->
-					<img
-						src="asset/images/logo.jpg"
-						alt="logo"
-						class="rounded navigator__logo img-fluid d-inline-block align-top mr-3"
-					/>
+	<!-- Add Style Sheet -->
+	<link rel="stylesheet" href="style.css" />
+	<title>ZATTIX</title>
+</head>
+
+<body>
+	<nav class="navbar navigator fixed-top">
+		<div class="navigator__links-container">
+			<a class="navbar-brand navigator__logo-container d-f align-items-center">
+				<!-- this logo from : https://www.freepik.com/free-vector/fashion-logo_8511933.htm#page=1&query=logo&position=39 -->
+				<!-- TODO: make the image responsive by picture tag -->
+				<img src="asset/images/logo.jpg" alt="logo"
+					class="rounded navigator__logo img-fluid d-inline-block align-top mr-3" />
+				ZATTIX
+			</a>
+			<div class="navigator__container--right">
+				<ul class="navbar-nav navigator__list d-f justify-content-between align-items-center">
+					<li class="nav-item navigator__item">
+						<a href="#" class="nav-link navigator__link">
+							<i class="fas fa-home navigator__icon mr-3"></i>
+							Home
+						</a>
+					</li>
+					<li class="nav-item navigator__item">
+						<a href="#" class="nav-link navigator__link">
+							<i class="fas fa-align-justify navigator__icon mr-3"></i>
+							Collections
+						</a>
+					</li>
+					<li class="nav-item navigator__item">
+						<a href="#" class="nav-link navigator__link btn--navigator">
+							<i class="fas fa-shopping-cart navigator__icon mr-3"></i>
+							Purchase
+						</a>
+					</li>
+					<li class="nav-item navigator__item navigator__item--1 ml-5">
+						<a href="#" class="nav-link navigator__link navigator__link--btn btn px-4">
+							Post an add
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Start Search Component -->
+	<header class="header">
+		<div
+			class="header__form-container d-f flex-column justify-content-center align-items-center px-5 overflow-hidden">
+			<div class="header__header-container container-md m-auto">
+				<div class="header__header mb-5 d-f flex-column align-items-center zindex-fixed">
+					<h1 class="">ZATTIX</h1>
+					<p>Buyer And Seller Coudn't Be Easier Than this!</p>
+				</div>
+				<form class="d-f header__form px-5" action="#">
+					<select class="custome-select header__select mr-1 rounded-0 zindex-fixed" name="#" id="#">
+						<option selected value="electronics">Real State</option>
+						<option value="electronics">Electronics</option>
+						<option value="electronics">Electronics</option>
+						<option value="electronics">Electronics</option>
+						<option value="electronics">Electronics</option>
+					</select>
+					<input class="form-control header__input mr-1 rounded-0 zindex-fixed" type="text"
+						value="What do you serch for ?" />
+					<input class="form-control header__input mr-1 rounded-0 zindex-fixed" type="text" value="State" />
+					<a class="btn header__btn header__submit px-5 rounded-0 ml-3 zindex-fixed"
+						href="search.html">Search</a>
+				</form>
+			</div>
+		</div>
+
+		<div class="header__slider">
+			<div class="container-md header__slider-container m-auto">
+				<div class="header__img-container">
+					<img src="asset/images/macbook.jpg" alt="apple" class="header__img" />
+				</div>
+				<div class="header__info-container">
+					<h2 class="header__heading mb-3">Apple MacBook Pro Late</h2>
+					<p class="header__para">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+						Expedita, tempore! Aliquid officia necessitatibus ea earum quod,
+						voluptate tempore distinctio quia repellendus voluptatibus eaque
+						fuga pariatur nam rem odio? Nulla, odio!
+					</p>
+					<div class="header__info">
+						<a class="header__by navigator__link--btn btn px-4">450$</a>
+						<a class="header__location navigator__link--btn btn px-4">
+							<i class="fas fa-shopping-cart navigator__icon mr-3"></i>
+							Purchase
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- End Search Component -->
+
+	<main>
+		<div class="container-md m-auto">
+			<!-- TODO: still don't emplement this class -->
+			<div class="container-fluid">
+				<!-- Start The Electrics Section -->
+				<section class="electronics-section">
+					<!-- Start Section Header -->
+					<header class="section-header border-bottom px-4 py-4">
+						<i class="fas fa-desktop section-header__icon mr-4"></i>
+						<h2 class="section-header__heading d-inline mr-4">Electronics</h2>
+						<p class="section-header__paragraph d-inline">
+							(Computers, Tablets, Mobile Phones.)
+						</p>
+					</header>
+					<!-- End Section Header -->
+					<div class="container element__container px-5 py-3">
+						<ul class="row element__list px-4">
+							<!-- Start Element component -->
+							<li class="col element__item mb-4">
+								<div class="card element">
+									<div class="element__img-container">
+										<img src="asset/images/macbook.jpg" alt="element image"
+											class="element__img card-img-top" />
+									</div>
+									<div>
+										<h5 class="card-title element__heading">
+											Apple MacBook Pro Late 2019 Model, MVVJ2
+										</h5>
+										<p class="element__label">Used</p>
+										<p class="element__from mt-3">
+											<span>From:</span> San Francisco, US
+										</p>
+										<div class="element__add mt-3 d-f justify-content-between">
+											<i class="fas fa-plus element__icon border px-2 py-2"></i>
+											<span class="element__price">200$</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- End Element component -->
+							<!-- Start Element component -->
+							<li class="col element__item mb-4">
+								<div class="card element">
+									<div class="element__img-container">
+										<img src="asset/images/macbook.jpg" alt="element image"
+											class="element__img card-img-top" />
+									</div>
+									<div>
+										<h5 class="card-title element__heading">
+											Apple MacBook Pro Late 2019 Model, MVVJ2
+										</h5>
+										<p class="element__label">Used</p>
+										<p class="element__from mt-3">
+											<span>From:</span> San Francisco, US
+										</p>
+										<div class="element__add mt-3 d-f justify-content-between">
+											<i class="fas fa-plus element__icon border px-2 py-2"></i>
+											<span class="element__price">200$</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- End Element component -->
+							<!-- Start Element component -->
+							<li class="col element__item mb-4">
+								<div class="card element">
+									<div class="element__img-container">
+										<img src="asset/images/macbook.jpg" alt="element image"
+											class="element__img card-img-top" />
+									</div>
+									<div>
+										<h5 class="card-title element__heading">
+											Apple MacBook Pro Late 2019 Model, MVVJ2
+										</h5>
+										<p class="element__label">Used</p>
+										<p class="element__from mt-3">
+											<span>From:</span> San Francisco, US
+										</p>
+										<div class="element__add mt-3 d-f justify-content-between">
+											<i class="fas fa-plus element__icon border px-2 py-2"></i>
+											<span class="element__price">200$</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- End Element component -->
+							<!-- Start Element component -->
+							<li class="col element__item mb-4">
+								<div class="card element">
+									<div class="element__img-container">
+										<img src="asset/images/macbook.jpg" alt="element image"
+											class="element__img card-img-top" />
+									</div>
+									<div>
+										<h5 class="card-title element__heading">
+											Apple MacBook Pro Late 2019 Model, MVVJ2
+										</h5>
+										<p class="element__label">Used</p>
+										<p class="element__from mt-3">
+											<span>From:</span> San Francisco, US
+										</p>
+										<div class="element__add mt-3 d-f justify-content-between">
+											<i class="fas fa-plus element__icon border px-2 py-2"></i>
+											<span class="element__price">200$</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- End Element component -->
+						</ul>
+					</div>
+				</section>
+
+				<section class="electronics-section">
+					<!-- Start Section Header -->
+					<header class="section-header border-bottom px-4 py-4">
+						<i class="fas fa-desktop section-header__icon mr-4"></i>
+						<h2 class="section-header__heading d-inline mr-4">Electronics</h2>
+						<p class="section-header__paragraph d-inline">
+							(Computers, Tablets, Mobile Phones.)
+						</p>
+					</header>
+					<!-- End Section Header -->
+					<div class="container element__container px-5 py-3">
+						<ul class="row element__list px-4">
+							<!-- Start Element component -->
+							<li class="col element__item mb-4">
+								<div class="card element">
+									<div class="element__img-container">
+										<img src="asset/images/macbook.jpg" alt="element image"
+											class="element__img card-img-top" />
+									</div>
+									<div>
+										<h5 class="card-title element__heading">
+											Apple MacBook Pro Late 2019 Model, MVVJ2
+										</h5>
+										<p class="element__label">Used</p>
+										<p class="element__from mt-3">
+											<span>From:</span> San Francisco, US
+										</p>
+										<div class="element__add mt-3 d-f justify-content-between">
+											<i class="fas fa-plus element__icon border px-2 py-2"></i>
+											<span class="element__price">200$</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- End Element component -->
+							<!-- Start Element component -->
+							<li class="col element__item mb-4">
+								<div class="card element">
+									<div class="element__img-container">
+										<img src="asset/images/macbook.jpg" alt="element image"
+											class="element__img card-img-top" />
+									</div>
+									<div>
+										<h5 class="card-title element__heading">
+											Apple MacBook Pro Late 2019 Model, MVVJ2
+										</h5>
+										<p class="element__label">Used</p>
+										<p class="element__from mt-3">
+											<span>From:</span> San Francisco, US
+										</p>
+										<div class="element__add mt-3 d-f justify-content-between">
+											<i class="fas fa-plus element__icon border px-2 py-2"></i>
+											<span class="element__price">200$</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- End Element component -->
+							<!-- Start Element component -->
+							<li class="col element__item mb-4">
+								<div class="card element">
+									<div class="element__img-container">
+										<img src="asset/images/macbook.jpg" alt="element image"
+											class="element__img card-img-top" />
+									</div>
+									<div>
+										<h5 class="card-title element__heading">
+											Apple MacBook Pro Late 2019 Model, MVVJ2
+										</h5>
+										<p class="element__label">Used</p>
+										<p class="element__from mt-3">
+											<span>From:</span> San Francisco, US
+										</p>
+										<div class="element__add mt-3 d-f justify-content-between">
+											<i class="fas fa-plus element__icon border px-2 py-2"></i>
+											<span class="element__price">200$</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- End Element component -->
+							<!-- Start Element component -->
+							<li class="col element__item mb-4">
+								<div class="card element">
+									<div class="element__img-container">
+										<img src="asset/images/macbook.jpg" alt="element image"
+											class="element__img card-img-top" />
+									</div>
+									<div>
+										<h5 class="card-title element__heading">
+											Apple MacBook Pro Late 2019 Model, MVVJ2
+										</h5>
+										<p class="element__label">Used</p>
+										<p class="element__from mt-3">
+											<span>From:</span> San Francisco, US
+										</p>
+										<div class="element__add mt-3 d-f justify-content-between">
+											<i class="fas fa-plus element__icon border px-2 py-2"></i>
+											<span class="element__price">200$</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- End Element component -->
+						</ul>
+					</div>
+				</section>
+				<!-- End The Electrics Section -->
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer text-center">
+		<div class="row">
+			<div class="col footer__logo-container">
+				<a class="navbar-brand navigator__logo-container d-f align-items-center footer__logo">
+					<img src="asset/images/logo.jpg" alt="logo"
+						class="rounded navigator__logo img-fluid d-inline-block align-top mr-3" />
 					ZATTIX
 				</a>
-				<div class="navigator__container--right">
-					<ul
-						class="navbar-nav navigator__list d-f justify-content-between align-items-center"
-					>
-						<li class="nav-item navigator__item">
-							<a href="#" class="nav-link navigator__link">
-								<i class="fas fa-home navigator__icon mr-3"></i>
-								Home
-							</a>
-						</li>
-						<li class="nav-item navigator__item">
-							<a href="#" class="nav-link navigator__link">
-								<i class="fas fa-align-justify navigator__icon mr-3"></i>
-								Collections
-							</a>
-						</li>
-						<li class="nav-item navigator__item">
-							<a href="#" class="nav-link navigator__link btn--navigator">
-								<i class="fas fa-shopping-cart navigator__icon mr-3"></i>
-								Purchase
-							</a>
-						</li>
-						<li class="nav-item navigator__item navigator__item--1 ml-5">
-							<a
-								href="#"
-								class="nav-link navigator__link navigator__link--btn btn px-4"
-							>
-								Post an add
-							</a>
-						</li>
-					</ul>
-				</div>
+				<p class="footer__info">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+					dolorem distinctio quaerat adipisci asperiores nihil omnis,
+					assumenda accusamus saepe nostrum vitae, expedita reprehenderit non,
+					repudiandae dolor repellat fugiat nulla fuga.
+				</p>
 			</div>
-		</nav>
+			<div class="row footer__links-container mb-4">
+				<ul class="col footer__list">
+					<li class="footer__item footer__item--header">
+						<a href="#" class="footer__header border-bottom">Categories</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Real Estate</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Automotives</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Electronics</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Clothing</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Fashion</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Kids</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Food & Drink</a>
+					</li>
+				</ul>
 
-		<!-- Start Search Component -->
-		<header class="header">
-			<div
-				class="header__form-container d-f flex-column justify-content-center align-items-center px-5 overflow-hidden"
-			>
-				<div class="header__header-container container-md m-auto">
-					<div
-						class="header__header mb-5 d-f flex-column align-items-center zindex-fixed"
-					>
-						<h1 class="">ZATTIX</h1>
-						<p>Buyer And Seller Coudn't Be Easier Than this!</p>
-					</div>
-					<form class="d-f header__form px-5" action="#">
-						<select
-							class="custome-select header__select mr-1 rounded-0 zindex-fixed"
-							name="#"
-							id="#"
-						>
-							<option selected value="electronics">Real State</option>
-							<option value="electronics">Electronics</option>
-							<option value="electronics">Electronics</option>
-							<option value="electronics">Electronics</option>
-							<option value="electronics">Electronics</option>
-						</select>
-						<input
-							class="form-control header__input mr-1 rounded-0 zindex-fixed"
-							type="text"
-							value="What do you serch for ?"
-						/>
-						<input
-							class="form-control header__input mr-1 rounded-0 zindex-fixed"
-							type="text"
-							value="State"
-						/>
-						<a
-							class="btn header__btn header__submit px-5 rounded-0 ml-3 zindex-fixed"
-							href="https://raw.githack.com/MohameDawood/ZATTIX/development-branch/search.html"
-							>Search</a
-						>
-					</form>
-				</div>
+				<ul class="col footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__header">Categories</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Real Estate</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Automotives</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Electronics</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Clothing</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Fashion</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Kids</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Food & Drink</a>
+					</li>
+				</ul>
+
+				<ul class="col footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__header">Categories</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Real Estate</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Automotives</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Electronics</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Clothing</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Fashion</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Kids</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Food & Drink</a>
+					</li>
+				</ul>
 			</div>
+		</div>
+		<div class="footer__copyright py-4 px-5 border-top">
+			Copyright © All right recieved.2020 Coded by MohameDawood, Designed By
+			Mohamed Awad
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/63c1245c39.js" crossorigin="anonymous"></script>
+</body>
 
-			<div class="header__slider">
-				<div class="container-md header__slider-container m-auto">
-					<div class="header__img-container">
-						<img
-							src="asset/images/macbook.jpg"
-							alt="apple"
-							class="header__img"
-						/>
-					</div>
-					<div class="header__info-container">
-						<h2 class="header__heading mb-3">Apple MacBook Pro Late</h2>
-						<p class="header__para">
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-							Expedita, tempore! Aliquid officia necessitatibus ea earum quod,
-							voluptate tempore distinctio quia repellendus voluptatibus eaque
-							fuga pariatur nam rem odio? Nulla, odio!
-						</p>
-						<div class="header__info">
-							<a class="header__by navigator__link--btn btn px-4">450$</a>
-							<a class="header__location navigator__link--btn btn px-4">
-								<i class="fas fa-shopping-cart navigator__icon mr-3"></i>
-								Purchase
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- End Search Component -->
-
-		<main>
-			<div class="container-md m-auto">
-				<!-- TODO: still don't emplement this class -->
-				<div class="container-fluid">
-					<!-- Start The Electrics Section -->
-					<section class="electronics-section">
-						<!-- Start Section Header -->
-						<header class="section-header border-bottom px-4 py-4">
-							<i class="fas fa-desktop section-header__icon mr-4"></i>
-							<h2 class="section-header__heading d-inline mr-4">Electronics</h2>
-							<p class="section-header__paragraph d-inline">
-								(Computers, Tablets, Mobile Phones.)
-							</p>
-						</header>
-						<!-- End Section Header -->
-						<div class="container element__container px-5 py-3">
-							<ul class="row element__list px-4">
-								<!-- Start Element component -->
-								<li class="col element__item mb-4">
-									<div class="card element">
-										<div class="element__img-container">
-											<img
-												src="asset/images/macbook.jpg"
-												alt="element image"
-												class="element__img card-img-top"
-											/>
-										</div>
-										<div>
-											<h5 class="card-title element__heading">
-												Apple MacBook Pro Late 2019 Model, MVVJ2
-											</h5>
-											<p class="element__label">Used</p>
-											<p class="element__from mt-3">
-												<span>From:</span> San Francisco, US
-											</p>
-											<div
-												class="element__add mt-3 d-f justify-content-between"
-											>
-												<i
-													class="fas fa-plus element__icon border px-2 py-2"
-												></i>
-												<span class="element__price">200$</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<!-- End Element component -->
-								<!-- Start Element component -->
-								<li class="col element__item mb-4">
-									<div class="card element">
-										<div class="element__img-container">
-											<img
-												src="asset/images/macbook.jpg"
-												alt="element image"
-												class="element__img card-img-top"
-											/>
-										</div>
-										<div>
-											<h5 class="card-title element__heading">
-												Apple MacBook Pro Late 2019 Model, MVVJ2
-											</h5>
-											<p class="element__label">Used</p>
-											<p class="element__from mt-3">
-												<span>From:</span> San Francisco, US
-											</p>
-											<div
-												class="element__add mt-3 d-f justify-content-between"
-											>
-												<i
-													class="fas fa-plus element__icon border px-2 py-2"
-												></i>
-												<span class="element__price">200$</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<!-- End Element component -->
-								<!-- Start Element component -->
-								<li class="col element__item mb-4">
-									<div class="card element">
-										<div class="element__img-container">
-											<img
-												src="asset/images/macbook.jpg"
-												alt="element image"
-												class="element__img card-img-top"
-											/>
-										</div>
-										<div>
-											<h5 class="card-title element__heading">
-												Apple MacBook Pro Late 2019 Model, MVVJ2
-											</h5>
-											<p class="element__label">Used</p>
-											<p class="element__from mt-3">
-												<span>From:</span> San Francisco, US
-											</p>
-											<div
-												class="element__add mt-3 d-f justify-content-between"
-											>
-												<i
-													class="fas fa-plus element__icon border px-2 py-2"
-												></i>
-												<span class="element__price">200$</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<!-- End Element component -->
-								<!-- Start Element component -->
-								<li class="col element__item mb-4">
-									<div class="card element">
-										<div class="element__img-container">
-											<img
-												src="asset/images/macbook.jpg"
-												alt="element image"
-												class="element__img card-img-top"
-											/>
-										</div>
-										<div>
-											<h5 class="card-title element__heading">
-												Apple MacBook Pro Late 2019 Model, MVVJ2
-											</h5>
-											<p class="element__label">Used</p>
-											<p class="element__from mt-3">
-												<span>From:</span> San Francisco, US
-											</p>
-											<div
-												class="element__add mt-3 d-f justify-content-between"
-											>
-												<i
-													class="fas fa-plus element__icon border px-2 py-2"
-												></i>
-												<span class="element__price">200$</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<!-- End Element component -->
-							</ul>
-						</div>
-					</section>
-
-					<section class="electronics-section">
-						<!-- Start Section Header -->
-						<header class="section-header border-bottom px-4 py-4">
-							<i class="fas fa-desktop section-header__icon mr-4"></i>
-							<h2 class="section-header__heading d-inline mr-4">Electronics</h2>
-							<p class="section-header__paragraph d-inline">
-								(Computers, Tablets, Mobile Phones.)
-							</p>
-						</header>
-						<!-- End Section Header -->
-						<div class="container element__container px-5 py-3">
-							<ul class="row element__list px-4">
-								<!-- Start Element component -->
-								<li class="col element__item mb-4">
-									<div class="card element">
-										<div class="element__img-container">
-											<img
-												src="asset/images/macbook.jpg"
-												alt="element image"
-												class="element__img card-img-top"
-											/>
-										</div>
-										<div>
-											<h5 class="card-title element__heading">
-												Apple MacBook Pro Late 2019 Model, MVVJ2
-											</h5>
-											<p class="element__label">Used</p>
-											<p class="element__from mt-3">
-												<span>From:</span> San Francisco, US
-											</p>
-											<div
-												class="element__add mt-3 d-f justify-content-between"
-											>
-												<i
-													class="fas fa-plus element__icon border px-2 py-2"
-												></i>
-												<span class="element__price">200$</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<!-- End Element component -->
-								<!-- Start Element component -->
-								<li class="col element__item mb-4">
-									<div class="card element">
-										<div class="element__img-container">
-											<img
-												src="asset/images/macbook.jpg"
-												alt="element image"
-												class="element__img card-img-top"
-											/>
-										</div>
-										<div>
-											<h5 class="card-title element__heading">
-												Apple MacBook Pro Late 2019 Model, MVVJ2
-											</h5>
-											<p class="element__label">Used</p>
-											<p class="element__from mt-3">
-												<span>From:</span> San Francisco, US
-											</p>
-											<div
-												class="element__add mt-3 d-f justify-content-between"
-											>
-												<i
-													class="fas fa-plus element__icon border px-2 py-2"
-												></i>
-												<span class="element__price">200$</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<!-- End Element component -->
-								<!-- Start Element component -->
-								<li class="col element__item mb-4">
-									<div class="card element">
-										<div class="element__img-container">
-											<img
-												src="asset/images/macbook.jpg"
-												alt="element image"
-												class="element__img card-img-top"
-											/>
-										</div>
-										<div>
-											<h5 class="card-title element__heading">
-												Apple MacBook Pro Late 2019 Model, MVVJ2
-											</h5>
-											<p class="element__label">Used</p>
-											<p class="element__from mt-3">
-												<span>From:</span> San Francisco, US
-											</p>
-											<div
-												class="element__add mt-3 d-f justify-content-between"
-											>
-												<i
-													class="fas fa-plus element__icon border px-2 py-2"
-												></i>
-												<span class="element__price">200$</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<!-- End Element component -->
-								<!-- Start Element component -->
-								<li class="col element__item mb-4">
-									<div class="card element">
-										<div class="element__img-container">
-											<img
-												src="asset/images/macbook.jpg"
-												alt="element image"
-												class="element__img card-img-top"
-											/>
-										</div>
-										<div>
-											<h5 class="card-title element__heading">
-												Apple MacBook Pro Late 2019 Model, MVVJ2
-											</h5>
-											<p class="element__label">Used</p>
-											<p class="element__from mt-3">
-												<span>From:</span> San Francisco, US
-											</p>
-											<div
-												class="element__add mt-3 d-f justify-content-between"
-											>
-												<i
-													class="fas fa-plus element__icon border px-2 py-2"
-												></i>
-												<span class="element__price">200$</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<!-- End Element component -->
-							</ul>
-						</div>
-					</section>
-					<!-- End The Electrics Section -->
-				</div>
-			</div>
-		</main>
-
-		<footer class="footer text-center">
-			<div class="row">
-				<div class="col footer__logo-container">
-					<a
-						class="navbar-brand navigator__logo-container d-f align-items-center footer__logo"
-					>
-						<img
-							src="asset/images/logo.jpg"
-							alt="logo"
-							class="rounded navigator__logo img-fluid d-inline-block align-top mr-3"
-						/>
-						ZATTIX
-					</a>
-					<p class="footer__info">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-						dolorem distinctio quaerat adipisci asperiores nihil omnis,
-						assumenda accusamus saepe nostrum vitae, expedita reprehenderit non,
-						repudiandae dolor repellat fugiat nulla fuga.
-					</p>
-				</div>
-				<div class="row footer__links-container mb-4">
-					<ul class="col footer__list">
-						<li class="footer__item footer__item--header">
-							<a href="#" class="footer__header border-bottom">Categories</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Real Estate</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Automotives</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Electronics</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Clothing</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Fashion</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Kids</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Food & Drink</a>
-						</li>
-					</ul>
-
-					<ul class="col footer__list">
-						<li class="footer__item">
-							<a href="#" class="footer__header">Categories</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Real Estate</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Automotives</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Electronics</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Clothing</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Fashion</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Kids</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Food & Drink</a>
-						</li>
-					</ul>
-
-					<ul class="col footer__list">
-						<li class="footer__item">
-							<a href="#" class="footer__header">Categories</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Real Estate</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Automotives</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Electronics</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Clothing</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Fashion</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Kids</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Food & Drink</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="footer__copyright py-4 px-5 border-top">
-				Copyright © All right recieved.2020 Coded by MohameDawood, Designed By
-				Mohamed Awad
-			</div>
-		</footer>
-		<script
-			src="https://kit.fontawesome.com/63c1245c39.js"
-			crossorigin="anonymous"
-		></script>
-	</body>
 </html>
